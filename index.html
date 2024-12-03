@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="navbar-title"><a class="navbar-title--link" href="#"><img class="navbar-title--icon" src="images/fastfood_24dp_F2B602_FILL0_wght400_GRAD0_opsz24.svg" alt="">FastFood</a></h1>
+            <ul class="navbar-list">
+                <li class="navbar-list--item"><a class="list--item__link" href="#lanches">Lanches</a></li>
+                <li class="navbar-list--item"><a class="list--item__link" href="#sobre">Sobre nós</a></li>
+                <li class="navbar-list--item"><a class="list--item__link" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="lanches" id="lanches">
+            <h1 class="lanches-title">Conheça nossos principais lanches</h1>
+            <div class="lanches-display">
+                <div class="lanches-card">
+                    <img class="lanches-card-image" src="images/477da894-hamburguer.jpg" alt="">
+                    <h2 class="lanches-card-title">X-tudo</h2>
+                    <ul class="lanches-card-list">
+                        <li class="lanches-card-item">Pão de hambúrguer</li>
+                        <li class="lanches-card-item">Tomate</li>
+                        <li class="lanches-card-item">Bacon</li>
+                        <li class="lanches-card-item">Queijo</li>
+                        <li class="lanches-card-item">Carne de hambúrguer</li>
+                        <li class="lanches-card-item">Alface</li>
+                    </ul>
+                </div>
+                <div class="lanches-card">
+                    <img class="lanches-card-image" src="images/hamburguer-de-camarao.jpg" alt="">
+                    <h2 class="lanches-card-title">X-camarão</h2>
+                    <ul class="lanches-card-list">
+                        <li class="lanches-card-item">Pão de hambúrguer</li>
+                        <li class="lanches-card-item">Tomate</li>
+                        <li class="lanches-card-item">Picles</li>
+                        <li class="lanches-card-item">Carne de camarão</li>
+                        <li class="lanches-card-item">Alface</li>
+                    </ul>
+                </div>
+                <div class="lanches-card">
+                    <img class="lanches-card-image" src="images/istockphoto-1309352410-612x612.jpg" alt="">
+                    <h2 class="lanches-card-title">Tradicional</h2>
+                    <ul class="lanches-card-list">
+                        <li class="lanches-card-item">Pão de hambúrguer</li>
+                        <li class="lanches-card-item">Tomate</li>
+                        <li class="lanches-card-item">Maionese</li>
+                        <li class="lanches-card-item">Bacon</li>
+                        <li class="lanches-card-item">Queijo</li>
+                        <li class="lanches-card-item">Carne de hambúrguer</li>
+                        <li class="lanches-card-item">Alface</li>
+                    </ul>
+                </div>
+                <div class="lanches-card">
+                    <img class="lanches-card-image" src="images/depositphotos_139337744-stock-photo-bottles-of-assorted-coca-cola.jpg" alt="">
+                    <h2 class="lanches-card-title">Bebidas</h2>
+                    <ul class="lanches-card-list">
+                        <li class="lanches-card-item">Coca Cola </li>
+                        <li class="lanches-card-item">Pepsi</li>
+                        <li class="lanches-card-item">Guaraná</li>
+                        <li class="lanches-card-item">Sucos Variados</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="sobre-direita">
+                <h1 class="sobre-direita-title">Sobre nós</h1>
+                <p class="sobre-direita-info">No <span>FastFoof</span>, nossa missão é redefinir a experiência do fast food, trazendo a verdadeira essência do hambúrguer artesanal para o seu dia a dia. Somos apaixonados por comida de qualidade, por isso cada hambúrguer que sai de nossa cozinha é feito com ingredientes frescos, carnes selecionadas e aquele toque especial que só quem ama o que faz pode oferecer.</p>
+            </div>
+            <div class="sobre-esquerda"></div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="contato-direita">
+                <h2 class="contato-direita-title">Formulário de Contato</h2>
+                <form action="contact" method="post" netlify>
+                    <input name="name" class="contato-direita-input" type="text" placeholder="Coloque seu nome aqui !">
+                    <input name="email" class="contato-direita-input" type="email" placeholder="Coloque seu e-mail aqui !">
+                    <input name="text" class="contato-direita-input height" type="text" placeholder="Coloque sua mensagem aqui !">
+                    <button type="submit" class="contato-direita-btn">Enviar</button>
+                </form>
+            </div>
+            <div class="contato-esquerda">
+                <div class="contato-esquerda-info">
+                    <h3>Horário de Funcionamento:</h3>
+                    <p>Segunda a Sexta: 11h às 22h</p>
+                    <p>Sábado e Domingo: 12h às 23h</p>
+                </div>
+                <div class="contato-esquerda-info">
+                    <h3>localização:</h3>
+                    <p>Rua dos Sabores, 123 - Centro, Cidade Exemplo</p>
+                    <!-- <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1332.1070128838153!2d-45.069448436771445!3d-23.4422031202683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cd530a929e9619%3A0x99eaefac3c647028!2sUbatuba%20Mall!5e0!3m2!1spt-BR!2sbr!4v1728841457767!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <h1>Copyright © @luangaldino</h1>
+        </footer>
+    </main>
+</body>
+</html>
